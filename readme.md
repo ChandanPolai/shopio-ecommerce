@@ -2,6 +2,10 @@
 
 Welcome to Shopio, your premier destination for a seamless and sophisticated online shopping experience. Our fully functional e-commerce platform is equipped with cutting-edge features designed to enhance your journey through our curated selection of products.
 
+## Shopio E-commerce Demo
+[Shopio E-commerce Demo](https://genzecommerce.netlify.app)
+
+
 ## Table of Contents
 1. [Product Searching](#product-searching)
 2. [Skeleton Loader Effect](#skeleton-loader-effect)
