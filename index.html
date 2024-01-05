@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>npm</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+    <!-- swiper js cdn link -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- tostify cdn link -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<body>
+    <!-- ------
+            nav bar start
+        ---------- -->
+    <nav>
+        <div class="nav-container">
+            <h1 class="brand-logo">Shopio</h1>
+            <div class="search">
+                <input type="text" placeholder="search products & brands" id="search-bar">
+                <button class="search-btn"><i class='fa fa-search '></i></button>
+            </div>
+            <ul>
+                <a href="#" class="nav-links">products</a>
+                <a href="#" class="nav-links">sign up</a>
+                <a href="#" class="nav-links">login</a>
+            </ul>
+            <div id="bar-div">
+                <i class="fa-solid fa-bag-shopping shopping-cart"></i>
+                <i class="fa-solid fa-bars hamburger"></i>
+            </div>
+        </div>
+        <div id="search-paper">...........</div>
+    </nav>
+       
+
+    <!-- search bar realted js elements structure -->
+      
+     <!-- ------
+                nav bar start
+            ---------- -->
+    <!-- -------------
+        swiper js slider start
+    ------------- -->
+<div class="swiper mySwiper" >
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="images/sliderimages/five.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="images/sliderimages/second.avif" alt="">
+        </div>
+        <div class="swiper-slide">      
+            <img src="images/sliderimages/three.webp" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="images/sliderimages/four.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="images/sliderimages/seven.jpg" alt="">
+        </div>
+        <div class="swiper-slide">
+            <img src="images/sliderimages/eight.jpg" alt="">
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  
+        <!-- -------------
+        swiper js slider end
+    ------------- -->
+<!-- ----
+    our product section start
+-------------- -->
+    <section>
+        <main class="products-tags">
+            <h1>popular products</h1>
+            <span>
+            <i class="fa-solid fa-arrow-left ARowkey"></i>
+            <i class="fa-solid fa-arrow-right ARowkey"></i>
+            </span>
+        </main>
+
+        <div class="product-container">
+
+            <!-- my 📢📢📢oversized tshirts section -->
+            <div class="tshirts-box">
+                <img src="images/shopytshirts/tsirt1.webp" alt="">
+                <div class="review-box">
+                    <h4>London Hills</h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>Men Printed Round Neck Cotton Blend Purple T-Shirt</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹349</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shopytshirts/tsirt2.webp" alt="">
+                <div class="review-box">
+                    <h4>hongkong Hills</h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>Men Printed Round Neck Cotton Blend Purple T-Shirt</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹499</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shopytshirts/tshrit3.webp" alt="">
+                <div class="review-box">
+                    <h4>moroco Hills</h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>Men Printed Round Neck Cotton Blend Purple T-Shirt</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹159</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shopytshirts/tshirt4.webp" alt="">
+                <div class="review-box">
+                    <h4>newyork Hills</h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>Men Printed Round Neck Cotton Blend Purple T-Shirt</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹1999</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shopytshirts/tshirt5.webp" alt="">
+                <div class="review-box">
+                    <h4>india Hills</h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>Men Printed Round Neck Cotton Blend Purple T-Shirt</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹699</div>                    
+                </div>                
+            </div>
+
+        </div>
+ 
+    </section>
+<!-- 👖👖👖jeans section  -->
+    <section>
+        <main class="products-tags">
+            <h1>featured products</h1>
+            <span>
+            <i class="fa-solid fa-arrow-left ARowkey"></i>
+            <i class="fa-solid fa-arrow-right ARowkey"></i>
+            </span>
+        </main>
+
+        <div class="product-container">
+
+            <!-- my 📢📢📢oversized tshirts section -->
+            <div class="tshirts-box">
+                <img src="images/shopy pants/jeans1.webp" alt="">
+                <div class="review-box">
+                    <h4>DENIM UNCLE </h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>Men Regular Mid Rise blue Jeans</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹998</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shopy pants/jeans2.webp" alt="">
+                <div class="review-box">
+                    <h4>hongkong Hills</h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>Men Regular Mid Rise White Jeans</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹1999</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shopy pants/jeans3.webp" alt="">
+                <div class="review-box">
+                    <h4>JACK & JONES </h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>Men Regular Mid Rise black Jeans</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹699</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shopy pants/jeans4.webp" alt="">
+                <div class="review-box">
+                    <h4>newyork Hills</h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>Men Regular Mid Rise White Jeans</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹2999</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shopy pants/jeans5.webp" alt="">
+                <div class="review-box">
+                    <h4>Hubberholme </h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>Men Slim Low Rise Blue Jeans</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹699</div>                    
+                </div>                
+            </div>
+
+        </div>
+ 
+    </section>
+
+<!-- shoes section👟👟👟👟 start -->
+
+
+    <section class="shoes-section">
+        <video width="320" height="240"  autoplay muted loop>
+            <source src="images/videosection/pexels-apoorv-srivastava-5338469 (1080p).mp4" type="video/mp4">
+            
+          </video>
+
+        <div class="product-container">
+
+            <!-- my 📢📢📢oversized tshirts section -->
+            <div class="tshirts-box">
+                <img src="images/shoessections/shoes1.webp" alt="">
+                <div class="review-box">
+                    <h4>DENIM UNCLE </h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>Men Regular Mid Rise blue Jeans</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹998</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shoessections/shoes2.webp" alt="">
+                <div class="review-box">
+                    <h4>hongkong Hills</h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3> High Top Air Casual Long (shoes)</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹3999</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shoessections/shoes3.webp" alt="">
+                <div class="review-box">
+                    <h4>JACK & JONES </h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3> High Top Air Casual Long (shoes)</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹999</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shoessections/shoes4.webp" alt="">
+                <div class="review-box">
+                    <h4>newyork Hills</h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3> High Top Air Casual Long (shoes)</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹5999</div>                    
+                </div>                
+            </div>
+
+            <div class="tshirts-box">
+                <img src="images/shoessections/shoes5.webp" alt="">
+                <div class="review-box">
+                    <h4>THNXBRO</h4>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <h3>High Top Air Casual Long (shoes)</h3>
+                <div class="price-box">
+                    <button class="addcart-btn"><a href="#"><i class="fa-solid fa-cart-shopping"></i>add to cart</a></button>
+                    <div class="money">₹1599</div>                    
+                </div>                
+            </div>
+
+        </div>
+ 
+    </section>
+<!-- ----
+    our product section end
+-------------- -->
+
+<!-- our product full information section -->
+ <div id="product-information">
+ <div class="all-products">
+
+        <div class="img-inform ">
+            <img src="images/shopytshirts/tsirt1.webp" alt="">
+            <div class="four-images">
+                <img src="images/shopytshirts/tshrit3.webp" alt="" class="photos">
+                <img src="images/shopytshirts/tshrit3.webp" alt="" class="photos">
+                <img src="images/shopytshirts/tshrit3.webp" alt="" class="photos">
+                <img src="images/shopytshirts/tshrit3.webp" alt="" class="photos">
+            </div>
+        </div>
+
+    <div class="product-info-text">
+        <h3 class="">LEVI'S</h3>
+        <h1 class="">Men Tapered Fit Mid Rise Blue Jeans</h1>
+        <p class="dumysmalltext">Special price</p>
+        <div class="product-prices">
+            <h4 class="special-price ">₹2,199</h4>
+            <del class="">₹3,999</del>
+            <a href="#" class="off">45% off</a>
+        </div>
+        <span class="size-choose">
+        <select class="">
+            <option value="volvo">size</option>
+            <option value="saab">M</option>
+            <option value="opel">XL</option>
+            <option value="audi">XXL</option>
+          </select>
+        </span>
+          <main>
+            <button id="back-btn" class="">back</button>
+            <button id="buy-now" class="">buy now</button>
+          </main>
+          <main class="some-products-deatils ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere nisi sint saepe assumenda a expedita officia, aperiam nobis accusamus non nemo enim, odit temporibus dolore beatae laudantium dolor eveniet veritatis! Quae tenetur assumenda nemo laudantium, quidem laborum esse aspernatur ab.
+          </main>
+    </div>
+   
+</div>
+</div>
+
+
+
+
+
+ <!-- ➕➕➕add to cart items showing section -->
+ <!-- <div class="items-showing">
+
+    <div class="my-items">
+    <main>
+        <img src="images/shopytshirts/1.0.webp" alt="">
+    </main>
+    <main>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, perferendis!</h3>
+        <h5>₹3,999</h5>
+        <input type="number">
+    </main>
+    <main>
+        <i class="fa-solid fa-trash delete-item-icon"></i>
+    </main>
+    </div>
+
+    <div class="total-box">
+        <h2>total ₹000</h2>
+        <button class="buy-btn-cart">buy now</button>
+    </div>
+    
+</div> -->
+
+
+ 
+    <div class="items-showing ">
+        <div>
+            <div class="total-box ">
+                <h2 id="finalprice">Total ₹------</h2>
+                <button class="buy-btn-cart">Buy Now</button>
+            </div>
+        </div>
+      
+    </div>
+
+
+
+
+    <!-- swiper js link for script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- tostiyfy cdn link -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="script.js" type="module"></script>
+
+</body>
+</html>
